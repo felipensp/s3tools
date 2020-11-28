@@ -1,7 +1,6 @@
 import boto3
 import os
 from io import BytesIO
-from s3_to_transcribe import handle
 
 BUCKET_NAME = ''
 s3 = boto3.client('s3')
